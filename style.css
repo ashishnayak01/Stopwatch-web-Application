@@ -1,0 +1,44 @@
+/* style.css */
+
+h1 {
+    color: blue;
+    font-size: 80px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(21, 3, 37);
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: rgb(214, 30, 205);
+    margin-bottom: 20px;
+}
+
+#display {
+    font-size: 10em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 20px;
+    margin: 0 5px;
+    font-size: 1em;
+    background-color: aqua;
+}
+
+.hero-btn {
+    font-size: 20px;
+    color: rgb(240, 64, 64);
+}
+
+#laps {
+    list-style-type: none;
+    padding: 0;
+    color: rgb(214, 30, 205);
+}
